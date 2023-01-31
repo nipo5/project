@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipo5/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nipo5/project/issues"
+  },
+  "homepage": "https://github.com/nipo5/project#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  }
+}
