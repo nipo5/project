@@ -1,0 +1,50 @@
+input: .
+   # The local path from this retype.yml file to your content files.
+  # See also: output
+url: docs.itech.md
+output: .retype
+   # Custom path to the output directory.
+  # See also: input
+
+
+poweredByRetype:
+  true # Set to false to remove the Powered by Retype branding.
+  # A Retype Pro license is required.
+  # See: https://retype.com/pro
+
+branding:
+  logo: /static/logo2.svg # Path to a logo file.
+  logoDark: /static/itech_logo_light.svg # Path to a logo file to use in dark mode.
+  # logoAlign: left              # Align the logo to the right or the left.
+  label: Docs # Optional label. To remove the label, remove this config.
+  colors:
+    label: # Label colors
+      text: "#ffffff" # Custom color for the label text.
+      background: "#528F34" # Custom color for the label background.
+
+# links: # A list of custom links to add to the top bar of the generated website.
+#        # See also: footer.links
+#   - text: Home      # The text to use for the link
+#     link: https://example.com/ # Link to an internal file or external URL.
+#   - text: API
+#     link: /api.md   # Link to an internal file or external URL.
+#     icon: gear      # A custom icon name, :emoji:, <svg>, or path to a file.
+#     iconAlign: left # Icon alignment, to the left or right. Default is left.
+#     target: blank   # Custom target. Use blank to open link in a new window.
+
+footer:
+  copyright: "© All rights reserved." # A custom copyright statement.
+
+
+
+editor: # Configure the page live editor functionality that is only
+  # available when `retype watch` is running.
+  enabled: false # Set to false to disable and hide the live editor.
+
+favicon:
+  /static/favicon.ico # Path to a custom favicon, or.
+  # just put a favicon.ico in your project root.
+
+meta:
+  title: " | ITech Docs" # Appended to the <title> element on all pages.
+
